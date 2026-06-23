@@ -1,4 +1,4 @@
-# My-game-<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -7,140 +7,177 @@
 
 <style>
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    background:#111;
-    color:white;
-    text-align:center;
+background:#0f0f0f;
+color:white;
+line-height:1.6;
 }
 
-header{
-    background:linear-gradient(135deg,#ff6600,#ff3300);
-    padding:60px 20px;
+.hero{
+background:linear-gradient(135deg,#ff6600,#ff2200);
+padding:80px 20px;
+text-align:center;
 }
 
-header h1{
-    font-size:3rem;
+.hero h1{
+font-size:3rem;
+margin-bottom:10px;
 }
 
-header p{
-    margin-top:10px;
-    font-size:1.2rem;
-}
-
-.container{
-    max-width:1000px;
-    margin:auto;
-    padding:40px 20px;
-}
-
-.features{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-    gap:20px;
-    margin-top:30px;
-}
-
-.feature{
-    background:#222;
-    padding:20px;
-    border-radius:10px;
+.hero p{
+font-size:1.2rem;
+margin-bottom:20px;
 }
 
 .download-btn{
-    display:inline-block;
-    margin-top:30px;
-    padding:15px 35px;
-    background:#00c853;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-size:20px;
-    font-weight:bold;
+display:inline-block;
+padding:15px 35px;
+background:#00c853;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-size:20px;
+font-weight:bold;
+transition:.3s;
 }
 
 .download-btn:hover{
-    background:#00a844;
+transform:scale(1.05);
 }
 
-.install{
-    margin-top:50px;
-    text-align:left;
-    background:#222;
-    padding:20px;
-    border-radius:10px;
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:#1b1b1b;
+padding:25px;
+margin:20px 0;
+border-radius:12px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.feature{
+background:#252525;
+padding:20px;
+border-radius:10px;
+}
+
+.feature h3{
+margin-bottom:10px;
+color:#00c853;
+}
+
+.tiktok-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:#ff0050;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
 }
 
 footer{
-    margin-top:50px;
-    padding:20px;
-    background:#000;
+background:#000;
+text-align:center;
+padding:25px;
+margin-top:40px;
 }
 </style>
-</head>
 
+</head>
 <body>
 
-<header>
+<section class="hero">
 <h1>🚗 Real Vehicle Game</h1>
 <p>Experience Realistic Driving Adventure</p>
-</header>
+
+<a class="download-btn" href="_Real_vehicle_game_19929680.apk">
+⬇ Download APK
+</a>
+</section>
 
 <div class="container">
 
+<div class="card">
 <h2>Welcome to Real Vehicle Game</h2>
-
-<p style="margin-top:15px;">
+<p>
 Real Vehicle Game ek exciting vehicle simulation game hai jahan aap
 different vehicles drive kar sakte hain aur realistic gameplay enjoy kar sakte hain.
 </p>
+</div>
+
+<div class="card">
+<h2>Game Features</h2>
 
 <div class="features">
 
 <div class="feature">
 <h3>Realistic Controls</h3>
-<p>Smooth and realistic vehicle handling.</p>
+<p>Smooth vehicle handling.</p>
 </div>
 
 <div class="feature">
 <h3>HD Graphics</h3>
-<p>High quality game environment.</p>
+<p>High quality visuals.</p>
 </div>
 
 <div class="feature">
 <h3>Easy Gameplay</h3>
-<p>Simple controls and fun experience.</p>
+<p>Simple and fun controls.</p>
 </div>
 
 <div class="feature">
 <h3>Multiple Vehicles</h3>
-<p>Drive different vehicles and enjoy.</p>
+<p>Drive different vehicles.</p>
 </div>
 
 </div>
+</div>
 
-<a class="download-btn" href="Real_vehicle_game.apk" download>
-⬇ Download APK
-</a>
-
-<div class="install">
+<div class="card">
 <h2>Installation Guide</h2>
-<br>
+
 <p>1. Download APK file.</p>
 <p>2. Enable Install from Unknown Sources.</p>
 <p>3. Open downloaded APK.</p>
-<p>4. Install and enjoy the game.</p>
+<p>4. Install and enjoy.</p>
+</div>
+
+<div class="card">
+<h2>Follow Me On TikTok</h2>
+
+<p>@inoxient.abdullah.1</p>
+
+<a class="tiktok-btn"
+href="https://www.tiktok.com/@inoxient.abdullah.1"
+target="_blank">
+📱 Follow on TikTok
+</a>
+
 </div>
 
 </div>
 
 <footer>
 <p>© 2026 Real Vehicle Game. All Rights Reserved.</p>
+<p style="margin-top:10px;">TikTok: @inoxient.abdullah.1</p>
 </footer>
 
 </body>
